@@ -6,7 +6,7 @@
   "author": "Diogo0602x <diogoteixeira0602@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "sucrase-node src/index.ts",
+    "dev": "nodemon src/server.ts",
     "build": ""
   },
   "devDependencies": {

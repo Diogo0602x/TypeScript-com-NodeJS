@@ -5,3 +5,8 @@
 - Instalar o typescript e sucrase com o comando : yarn add -D typescript sucrase
 -Criar no package.json o scripts
 - Instalar o nodemon com o comando : yarn add -D nodemon
+- Criar arquivo nodemon.json
+- O watch passa quais pastas você quer ficar observando ou seja, os códigos que vão ser observados serão os da pasta src
+- O ext é para observar as extensões dos arquivos no caso os arquivos typescript
+- O execMap server para  definir quando um arquivo for atualizado o que ele vai rodar, no quaso quando um arquivo typescript for atualizado ele ira rodar o script dentro do ts
+- Mudar o comando dev para o nodemon e o arquivo do servidor
