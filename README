@@ -2,4 +2,6 @@
 
 -Rodar yarn init -y para criar o package.json
 -Instalar as dependências, typescript e sucrase(transcreve o código de typescript para javascript)
+- Instalar o typescript e sucrase com o comando : yarn add -D typescript sucrase
 -Criar no package.json o scripts
+- Instalar o nodemon com o comando : yarn add -D nodemon
