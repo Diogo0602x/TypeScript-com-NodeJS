@@ -1,3 +1,5 @@
 *TypeScript com NodeJS* 
 
-Rodar yarn init -y para criar o package.json
+-Rodar yarn init -y para criar o package.json
+-Instalar as dependências, typescript e sucrase(transcreve o código de typescript para javascript)
+-Criar no package.json o scripts
