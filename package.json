@@ -1,0 +1,8 @@
+{
+  "name": "Typescript_com_NodeJs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Diogo0602x/TypeScript-com-NodeJS.git",
+  "author": "Diogo0602x <diogoteixeira0602@gmail.com>",
+  "license": "MIT"
+}
