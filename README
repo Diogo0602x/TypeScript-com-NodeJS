@@ -14,3 +14,5 @@
 - Adicionar o eslint com o comando : yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
 - Para configurar o eslint usa o comando : yarn eslint --init, seleciona a 3 opção, depois a de Jaavascript depois seleciona none(com o barra de espaço), depois Node, depois usa a popular, standard e por ultimo Javascript e colocar sim pra instalar com npm
 - Instalar o prettier com o comando: yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+= Instalar o express, cors e mongoose para possibilitar que as aplicações frontend tenham acesso ao api e para fazer o banco de dados com o comando : yarn add express cors mongoose
+- 
