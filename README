@@ -1,7 +1,7 @@
 *TypeScript com NodeJS* 
 
--Rodar yarn init -y para criar o package.json
--Instalar as dependências, typescript e sucrase(transcreve o código de typescript para javascript)
+- Rodar yarn init -y para criar o package.json
+- Instalar as dependências, typescript e sucrase(transcreve o código de typescript para javascript)
 - Instalar o typescript e sucrase com o comando : yarn add -D typescript sucrase
 - Criar no package.json o scripts
 - Instalar o nodemon com o comando : yarn add -D nodemon
@@ -14,5 +14,9 @@
 - Adicionar o eslint com o comando : yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
 - Para configurar o eslint usa o comando : yarn eslint --init, seleciona a 3 opção, depois a de Jaavascript depois seleciona none(com o barra de espaço), depois Node, depois usa a popular, standard e por ultimo Javascript e colocar sim pra instalar com npm
 - Instalar o prettier com o comando: yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
-= Instalar o express, cors e mongoose para possibilitar que as aplicações frontend tenham acesso ao api e para fazer o banco de dados com o comando : yarn add express cors mongoose
-- 
+- Instalar o express, cors e mongoose para possibilitar que as aplicações frontend tenham acesso ao api e para fazer o banco de dados com o comando : yarn add express cors mongoose
+- Instalar os types com o comando :   yarn add @types/express @types/cors @types/mongoose -D
+- Criar uma classe, declarando uma variável e colocar o seu tipo como express.Application, criar um constructor e criar os métodos middlewares. database e routes
+- Na hora da criação do construtor database o banco de dados têm que estar rodando e instalar o as dependencias do mongodb com o comando: yarn add @types/mongodb -D
+- Rodar o banco de dados com o comando: docker run --name praticandoNode -p 27017:27017 -d -t mongo
+- Sempre rodar o comando docker starter praticandoNode para rodar o banco e docker stop praticandoNOde para parar
