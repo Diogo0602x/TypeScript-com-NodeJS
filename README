@@ -20,4 +20,4 @@
 - Na hora da criação do construtor database o banco de dados têm que estar rodando e instalar o as dependencias do mongodb com o comando: yarn add @types/mongodb -D
 - Rodar o banco de dados com o comando: docker run --name praticandoNode -p 27017:27017 -d -t mongo
 - Sempre rodar o comando docker starter praticandoNode para rodar o banco e docker stop praticandoNOde para parar
-- Abrir no navegador o localhost:3333
+- Rodar yarn dev e abrir no navegador o localhost:3333
