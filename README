@@ -3,11 +3,13 @@
 -Rodar yarn init -y para criar o package.json
 -Instalar as dependências, typescript e sucrase(transcreve o código de typescript para javascript)
 - Instalar o typescript e sucrase com o comando : yarn add -D typescript sucrase
--Criar no package.json o scripts
+- Criar no package.json o scripts
 - Instalar o nodemon com o comando : yarn add -D nodemon
 - Criar arquivo nodemon.json
 - O watch passa quais pastas você quer ficar observando ou seja, os códigos que vão ser observados serão os da pasta src
 - O ext é para observar as extensões dos arquivos no caso os arquivos typescript
 - O execMap server para  definir quando um arquivo for atualizado o que ele vai rodar, no quaso quando um arquivo typescript for atualizado ele ira rodar o script dentro do ts
 - Mudar o comando dev para o nodemon e o arquivo do servidor
--No build vai ser usado o sucrase, colocar a pasta que quer rodas e colocar o diretório que quer gerar os arquivos javascript e passar a propriedade transforms e colocar os transforms o typescript e o imports
+- No build vai ser usado o sucrase, colocar a pasta que quer rodas e colocar o diretório que quer gerar os arquivos javascript e passar a propriedade transforms e colocar os transforms o typescript e o imports
+- Adicionar o eslint com o comando : yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+- Para configurar o eslint usa o comando : yarn eslint --init, seleciona a 3 opção, depois a de Jaavascript depois seleciona none(com o barra de espaço), depois Node, depois usa a popular, standard e por ultimo Javascript e colocar sim pra instalar com npm
