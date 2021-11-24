@@ -5,6 +5,7 @@ module.exports = {
   },
   extends: [
     'plugin:@typescript-eslint/recommended',
+    'prettier/@typescript-eslint',
     'standard'
   ],
   parser: '@typescript-eslint/parser',
@@ -15,6 +16,10 @@ module.exports = {
   plugins: [
     '@typescript-eslint'
   ],
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly'
+  },
   rules: {
   }
 }
