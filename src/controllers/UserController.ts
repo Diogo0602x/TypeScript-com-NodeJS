@@ -23,6 +23,25 @@ class UserController {
         
         return res.json(deleteUser)
     }
+
+    public async update(req: Request, res: Response): Promise<Response> {
+        
+        const{ _id, name, email, password, age, number, avatar } = req.body
+
+        const updateUser = await User.findOne({where: { _id }})
+
+        const updatedUser = await User.updateOne({ 
+            ...updateUser,
+            name, 
+            email, 
+            password, 
+            age, 
+            number, 
+            avatar
+        })
+        
+        return res.json(updatedUser)
+    }
 }
 
 export default new UserController()
