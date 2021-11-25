@@ -21,3 +21,4 @@
 - Rodar o banco de dados com o comando: docker run --name praticandoNode -p 27017:27017 -d -t mongo
 - Sempre rodar o comando docker starter praticandoNode para rodar o banco e docker stop praticandoNode para parar
 - Rodar yarn dev e abrir no navegador o localhost:3333
+- No insmonia criar as requisições para ver funcionando
